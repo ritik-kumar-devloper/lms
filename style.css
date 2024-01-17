@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arvo&family=Fira+Sans+Condensed&family=Pacifico&family=Yanone+Kaffeesatz&display=swap');
+*{
+margin:0;
+padding:0;
+}
+.logo{
+    padding-top: 6px;
+width:30%;
+display:flex;
+padding-bottom: 6px;
+}
+.logo img{
+width:39%;
+border-radius:50px;
+align-items: center;
+}
+
+.navbar{
+display:flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+
+.nav-list{
+width:50%;
+display:flex;
+align-items:center;
+}
+.nav-list li{
+list-style:none;
+padding:26px 30px;
+}
+.nav-list li a{
+text-decoration:none;
+color:white;
+font-size: 21px;
+font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a:hover{
+color:#f1c40f;
+}
+.rightNav{
+width:30%;
+text-align:right;
+margin-left:  200px;
+}
+.search{
+padding:5px;
+font-size:17px;
+border:2px solid grey;
+border-radius:9px;
+}
+.background{
+background:rgb(0,0,0,0.8)url(comoo.jpg);
+background-size:cover;
+background-blend-mode:darken;
+color:white;
+}
+
+.firstSection{
+height:100vh;
+}
+.box-main{
+display: flex;
+justify-content:center;
+align-items:center;
+color:white;
+font-family: 'Lobster', cursive;
+max-width: 50%;
+margin: auto;
+height: 80%;
+}
+.fistHalf{
+width:80%;
+display:flex;
+justify-content: center;
+flex-direction: column;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    flex-direction: row; 
+    margin-left: 20px;  
+    margin-right: 20px;
+}
+.logoo{
+    width:60%;
+  }
+.logoo img{
+width:50%;
+border: 4px solid white;
+border-radius: 150px;
+display: block;
+margin: auto;
+}
+
+.text-big{
+font-size: 50px;
+font-family: 'Amatic SC', cursive;
+}
+.text-bigg{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 600px;
+    padding: 3px;
+    margin-bottom: 30px;
+    }
+.text-small{
+    font-size: 18px;   
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 7px 3px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    font-size: 20px;
+    }
+    .btnn{
+        font-family: 'Ubuntu', sans-serif;
+        cursor: pointer;
+        padding: 8px 20px;
+        margin: 7px 3px;
+        color: white;
+        background-color: #44bd32;
+        border: 2px solid white;
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 6px 10px;
+        vertical-align: middle;
+        font-size: 16px;
+        }   
+        .btnn:hover{
+            color: rgb(0, 0, 0); 
+            }   
+        .btnnn{
+            font-family: 'Ubuntu', sans-serif;
+            cursor: pointer;
+            padding: 8px 20px;
+            margin: 7px 3px;
+            color: white;
+            background-color: #0097e6;
+            border: 2px solid white;
+            border-radius: 25px;
+            font-size: 20px;
+            padding: 6px 10px;
+            vertical-align: middle;
+            font-size: 16px;
+            }  
+            .btnnn:hover{
+                color: rgb(0, 0, 0); 
+                }  
+                  
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.section{
+height: 400px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+max-width: 80%;
+justify-content: center;
+margin: auto;
+font-family: 'Ubuntu', sans-serif;
+}
+.left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    width: 300px;
+    border: 2px solid #576574;
+    border-radius: 23px;
+    margin-top: 19px;
+}    
+.onn img{
+    height: 300px;
+        border: 2px solid #576574;
+        border-radius: 23px;
+        margin-top: 19px;;
+    
+}
+.contact{
+    background-color: #dfe6e9;
+    height: 600px;   
+}
+.contactt{
+height: 500px;
+    width: 260px;
+  border: 2px solid rgb(0, 0, 0);
+   border-radius: 20px;
+  padding: 30px 30px 30px 30px;
+  margin: 10px;   
+}
+.form{
+    max-width: 300px;
+    margin: 1px auto;
+}
+.form-input{
+width: 100%;
+font-size: 16px;
+border: 2px solid #576574;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-radius: 6px;
+margin: 14px 0;
+padding: 5px 13px;
+padding-left: 12px;
+}
+.text-center{
+    padding-top: 30px;
+text-align: center;
+font-size: 30px;
+padding: 30px;
+font-family: 'Ubuntu', sans-serif;
+}
+.btn-dark{
+color:black;
+border: 2px solid #576574;
+}
+.feedback{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 312px;
+    height: 150px;
+font-size: 16px;
+border: 2px solid #576574;
+border-radius: 6px;
+margin: 14px 0;
+padding: 5px 3px;
+padding-left: 12px;
+}
+.text-footer{
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+
+
+.title{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: blue;
+}
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(94, 94, 95);
+}
+.course{
+ text-align: justify;
+ padding-left: 100px;
+padding-right: 50px;
+ height: auto;
+ color: #84817a;
+ font-family: 'Gowun Dodum', sans-serif;
+
+}
+.images{
+    padding-left: 121px;
+    width: 250px;
+}
+.image{
+    padding-left: 191px;
+    width: 118px;
+}
+.room{
+justify-content: center;
+}
+.roomm{
+    padding-left: 110px;
+    justify-content: center;
+    }
+.roo{
+    padding-left: 175px;
+padding-bottom: 10px;
+}
+.rooo{
+    padding-left: 220px;
+padding-bottom: 10px;
+}
+.roo4{
+    padding-left: 197px;
+padding-bottom: 10px;
+}
+.rooo4{
+    padding-left: 210px;
+padding-bottom: 10px;
+}
+.roo5{
+    padding-left: 230px;
+padding-bottom: 10px;
+}
+.rooo5{
+    padding-left: 210px;
+padding-bottom: 10px;
+}
+.but{
+    padding-left: 145px;
+     }
+
+
+.title2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: blue;
+    }
+    .subtitle2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(94, 94, 95);
+    }
+    .course2{
+     text-align: justify;
+     padding-left: 60px;
+     padding-right: 60px;
+     height: auto;
+     color: #84817a;
+     font-family: 'Gowun Dodum', sans-serif;
+     
+     height: auto;
+     font-family: 'Gowun Dodum', sans-serif;
+    }
+    .images2{
+        padding-left: 61px;
+        width: 250px;
+    }
+    .images3{
+        padding-left: 81px;
+        width: 175px;
+    }
+    .images4{
+        padding-left: 201px;
+        width: 104px;
+    }
+    
+    .roo2{
+        padding-left: 138px;
+    padding-bottom: 10px;
+    }
+    .rooo2{
+        padding-left: 128px;
+    padding-bottom: 10px;
+    }
+    .but2{
+        padding-left: 81px;
+         
+    }
+    
+    
+    .title3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: blue;
+        }
+        .subtitle3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: rgb(94, 94, 95);
+        }
+        .course3{
+         text-align: justify;
+     padding-left: 50px;
+         padding-right: 100px;
+         color: #84817a;
+         height: auto;
+         font-family: 'Gowun Dodum', sans-serif;
+        }
+        .course13{
+            text-align: justify;
+            padding-left: 120px;
+                padding-right: 120px;
+                color: #84817a;
+                height: auto;
+                font-family: 'Gowun Dodum', sans-serif;
+           }
+        .course4{
+            text-align: justify;
+        padding-left: 100px;
+            padding-right: 100px;
+            color: #84817a;
+            height: auto;
+            font-family: 'Gowun Dodum', sans-serif;
+           }
+      
+   
+        .imagess{
+            padding-left: 137px;
+            width: 120px;
+        }
+        .images7{
+                padding-left: 137px;
+                width: 180px;
+        }
+        .images9{
+            padding-left: 121px;
+            width: 180px;
+    }
+    .images10{
+        padding-left: 120px;
+        width: 160px;
+    }
+        .images8{
+            padding-left: 82px;
+            width: 240px;
+    }
+    .images11{
+        padding-left: 18px;
+        width: 270px;
+}
+.images13{
+    padding-left: 185px;
+    width: 180px;
+}
+        .roo13{
+            padding-left: 220px;
+        padding-bottom: 10px;
+        }
+        .rooo13{
+            padding-left: 237px;
+        padding-bottom: 10px;
+        }
+        .roo3{
+            padding-left: 117px;
+        padding-bottom: 10px;
+        }
+        .rooo3{
+            padding-left: 167px;
+        padding-bottom: 10px;
+        }
+        .roo8{
+            padding-left: 187px;
+        padding-bottom: 10px;
+        }
+        .rooo8{
+            padding-left: 167px;
+        padding-bottom: 10px;
+        }
+        .roo9{
+            padding-left: 167px;
+        padding-bottom: 10px;
+        }
+        .rooo9{
+            padding-left: 165px;
+        padding-bottom: 10px;
+        }
+        .roo10{
+            padding-left: 135px;
+        padding-bottom: 10px;
+        }
+        .rooo10{
+            padding-left: 160px;
+        padding-bottom: 10px;
+        }
+        .roo12{
+            padding-left: 95px;
+        padding-bottom: 10px;
+        }
+        .rooo12{
+            padding-left: 115px;
+        padding-bottom: 10px;
+        }
+        .rooo7{
+            padding-left: 197px;
+        padding-bottom: 10px;
+        }
+        .but3{
+            padding-left: 100px;
+             
+        }
+        .but12{
+            padding-left: 40px;
+             
+        }
+        .but13{
+            padding-left: 165px;
+             
+        }
+        .but7{
+            padding-left: 129px;
+             
+        }
+        .but4{
+            padding-left: 143px;   
+        }
+        .but5{
+            padding-left: 60px;   
+        }
+        .but6{
+            padding-left: 153px;   
+        }
+        .but8{
+            padding-left: 95px;   
+        }
+        .but10{
+            padding-left: 90px;   
+        }
